@@ -1,0 +1,27 @@
+{
+  "name": "IaTwitterInsights",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "bower": "^1.8.0",
+    "cfenv": "1.0.x",
+    "cloudant": "^1.7.1",
+    "cors": "^2.8.1",
+    "dbpedia-sparql-client": "^0.9.6",
+    "dotenv": "^4.0.0",
+    "express": "4.13.x",
+    "moment": "^2.17.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "watson-developer-cloud": "^2.32.1"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  }
+}

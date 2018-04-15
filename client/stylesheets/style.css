@@ -1,0 +1,403 @@
+body {
+	background-color: #ECF0F5;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr {
+	color: white;
+	font-weight: bold;
+}
+
+tr:nth-child(1) {
+	background-color: white !important;
+	color: black;
+}
+
+tr:nth-child(even) {
+	background-color: #00C0EF;
+}
+
+tr:nth-child(odd) {
+	background-color: #009ABF;
+}
+
+#bodyContainer {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	background: rgb(0, 156, 247);
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentButtons {
+	display: flex;
+	flex-direction: row;
+}
+
+.headerButtons {
+	background-color: rgb(63, 124, 226);
+	margin-right: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.headerButtons:hover {
+	background-color: rgb(0, 0, 0);
+}
+
+#topContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+}
+
+#boxContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.boxWrapper {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 20px;
+}
+
+.boxIcon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	padding: 10px 20px 10px 20px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 60px;
+	width: 90px;
+}
+
+#boxOverallIcon {
+	background-color: #009ABF;
+}
+
+#boxPositiveIcon {
+	background-color: #008548;
+}
+
+#boxNeutralIcon {
+	background-color: #727272;
+}
+
+#boxNegativeIcon {
+	background-color: #B13C2E;
+}
+
+.boxSubContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.boxContent {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1px;
+	width: 200px;
+	font-size: 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 60px;
+}
+
+.divProgress {
+	height: 55px;
+	background-color: white;
+	margin: 20px 0px 2px 0px;
+	border-radius: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.progress {
+	position: relative;
+}
+
+.progress span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+.progress-bar {
+	background-color: white;
+	line-height: 12px !important;
+}
+
+#progressBarPositive {
+	color: black;
+	margin-bottom: -10px;
+}
+
+#boxOverallContent {
+	background-color: #00C0EF;
+	flex-direction: column-reverse;
+	padding: 5px 15px 5px 5px;
+}
+
+#boxPositiveContent {
+	background-color: #00A65A;
+	padding: 5px 15px 5px 5px;
+}
+
+#boxNeutralContent {
+	background-color: #8E8E8E;
+	padding: 5px 15px 5px 5px;
+}
+
+#boxNegativeContent {
+	background-color: #DD4B39;
+	padding: 5px 15px 5px 5px;
+}
+
+#wrapperMiddle {
+	display: flex;
+	flex-direction: row;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	justify-content: space-between;
+}
+
+#wrapperLeft {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.wrapperSentiment {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 90%;
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 245px;
+}
+
+#wrapperGraphic {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 500px;
+	border-top: solid 5px #00C0EF;
+}
+
+#wrapperSparql {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 500px;
+	border-top: solid 5px #00C0EF;
+}
+
+#inputSearch {
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#wrapperSearch {
+	display: flex;
+	flex-direction: row;
+}
+
+#inputButton {
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #00C0EF;
+	color: white;
+	font-weight: bold;
+	height: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#contentGraph {
+	height: 100%;
+}
+
+#contentSparql {
+	height: 100%;
+	margin: 10px;
+	overflow-y: scroll;
+	text-align: justify;
+	padding: 5px 15px 5px 10px;
+}
+
+#sentP {
+	border-top: solid 5px #00A65A;
+}
+
+#sentN {
+	border-top: solid 5px #DD4B39;
+}
+
+.titleMiddle {
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: solid 1px rgb(244, 244, 244);
+}
+
+.textSentiment {
+	margin: 10px;
+}
+
+#contentGraph > .amcharts-main-div > .amcharts-chart-div > a {
+	display: none !important;
+}
+
+#bottomContainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+	justify-content: space-between;
+}
+
+#wrapperPosts {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 55%;
+	border-top: solid 5px #F39C12;
+}
+
+#wrapperTweetAnalysis {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 40%;
+	border-top: solid 5px #D2D6DE;
+}
+
+#wrapperTabs {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 43%;
+}
+
+#wrapperTabs select {
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#wrapperNluContent {}
+
+.titleBottom {
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: solid 1px rgb(244, 244, 244);
+}
+
+#wordCloud {
+	height: 400px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.warningBorder {
+	border: 1px solid red;
+}
+
+#postsContainer {
+	overflow-y: auto;
+}
+
+.wrapperTweetPost {
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 15px;
+	border-bottom: solid 1px rgb(244, 244, 244);
+}
+
+.iconWrapperTweet {
+	padding: 23px;
+}
+
+.topTweetPost {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.bottomTweetPost {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+}
+
+.authorTweetPost {
+	margin-right: 5px;
+}
+
+.dateTweetPost {
+	color: #bec0c4;
+	padding-right: 10px;
+}
+
+.contentTweetPost {
+	font-weight: bold;
+	color: #13A1FF;
+}
+
+#selectFeature {
+	margin-bottom: 5px;
+}
+
+#wrapperNluContent {
+	margin-left: 10px;
+	margin-right: 10px;
+}

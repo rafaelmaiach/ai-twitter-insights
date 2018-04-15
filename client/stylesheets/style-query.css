@@ -1,0 +1,119 @@
+@media all and (max-width: 320px) {
+    .header > h2{
+        font-size: 15px;
+    }
+	
+	#bottomContainer {
+		flex-direction: column;
+	}
+	
+	#wrapperPosts {
+		width: 100%;
+		height: 400px;
+	}
+	
+	#wrapperPosts > .titleBottom {
+		font-size: 18px;
+	}
+	
+	#wrapperWordCloud {
+		width: 100%;
+	}
+
+    #wrapperGraphic {
+        width: 100%;
+    }
+
+    #wrapperTweetAnalysis {
+        width: 100%;
+        height: 500px;
+    }
+
+    .contentTweetPost p {
+        font-size: 12px;
+
+    }
+
+    .iconWrapperTweet {
+        display: none;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 570px) {
+    .header > h2{
+        font-size: 18px;
+    }
+	
+	#bottomContainer {
+		flex-direction: column;
+	}
+	
+	#wrapperPosts {
+		width: 100%;
+		height: 400px;
+	}
+	
+	#wrapperWordCloud {
+		width: 100%;
+	}
+
+    #wrapperGraphic {
+        width: 100%;
+    }
+
+    #wrapperTweetAnalysis {
+        width: 100%;
+        height: 500px;
+    }
+
+    .contentTweetPost p {
+        font-size: 12px;
+    }
+
+    .iconWrapperTweet {
+        display: none;
+    }
+
+    .bottomTweetPost {
+        font-size: 8px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    
+}
+
+@media all and (max-width: 1249px){
+    #boxContainer {
+        flex-direction: column;
+    }
+
+    .boxContent {
+        width: 100%;
+    }
+
+    #wrapperMiddle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #wrapperLeft {
+        width: 100%;
+    }
+
+    .wrapperSentiment {
+        width: 100%;
+        height: 300px;
+    }
+
+    #wrapperGraphic {
+        width: 100%;
+    }
+
+}
+
+@media all and (min-width: 1250px) {
+    .wrapperGraphic {
+        width: 60%
+    }
+}
